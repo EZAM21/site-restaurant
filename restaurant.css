@@ -1,0 +1,250 @@
+/* screen - index */
+
+.conteneur {
+        align-items: flex-start;
+        background-color: var(--grandis);
+        border: 1px none;
+        display: flex;
+        flex-direction: column;
+        gap: 97px;
+        height: 1024px;
+        overflow: hidden;
+        width: 102%;
+      }
+      
+      
+      .conteneur .overlap-group2 {
+        height: 163px;
+        margin-left: 0;
+        position: relative;
+        width: 102%;
+      }
+      
+      .conteneur .rectangle {
+        top: 0;
+      }
+      
+      .conteneur .logo {
+        height: 80px;
+        left: 33px;
+        object-fit: cover;
+        position: absolute;
+        top: 46px;
+        width: 147px;
+      }
+      
+      .conteneur .accueil {
+        left: 462px;
+        letter-spacing: 0;
+        line-height: normal;
+        position: absolute;
+        text-align: center;
+        top: 85px;
+        white-space: nowrap;
+        width: 125px;
+      }
+
+      .accueil:hover {
+        transform: scale(1.1);
+        }
+
+      
+      
+      .conteneur .menu {
+        left: 623px;
+        letter-spacing: 0;
+        line-height: normal;
+        position: absolute;
+        text-align: center;
+        top: 85px;
+        white-space: nowrap;
+        width: 125px;
+      }
+
+      .menu:hover {
+        transform: scale(1.1);
+        }
+      
+      .conteneur .a-propos {
+        left: 784px;
+        letter-spacing: 0;
+        line-height: normal;
+        position: absolute;
+        text-align: center;
+        top: 85px;
+        white-space: nowrap;
+        width: 125px;
+      }
+
+      .a-propos:hover {
+        transform: scale(1.1);
+        }
+      
+      .conteneur .contact {
+        left: 945px;
+        letter-spacing: 0;
+        line-height: normal;
+        position: absolute;
+        text-align: center;
+        top: 85px;
+        white-space: nowrap;
+        width: 125px;
+      }
+
+      .contact:hover {
+        transform: scale(1.1);
+        }
+      
+      .conteneur .overlap-group-container {
+        height: 765px;
+        margin-left: 0;
+        position: relative;
+        width: 102%;
+      }
+      
+      .conteneur .overlap-group {
+        height: 765px;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 102%
+      }
+      
+      .conteneur .rectangle-3 {
+        top: 602px;
+      }
+      
+      .conteneur .bienvenue-au-grills-chef {
+        color: var(--black);
+        font-family:  var(--font-family-inter);
+        font-size: var(--font-size-l);
+        font-weight: 800;
+        left: 360px;
+        letter-spacing: 0;
+        line-height: normal;
+        position: absolute;
+        text-align: center;
+        top: 0;
+      }
+      
+      .conteneur .notre-cuisine-sempl {
+        color: #4f3b14;
+        font-family: var(--font-family-inter);
+        font-size: var(--font-size-m);
+        font-style: italic;
+        font-weight: 900;
+        left: 75px;
+        letter-spacing: 0;
+        line-height: normal;
+        position: absolute;
+        top: 319px;
+      }
+      
+      .conteneur .assiette-de-viandes{
+        height: 450px;
+        left: 700px;
+        object-fit: cover;
+        position: absolute;
+        top: 320px;
+        width: 650px;
+      }
+      
+      .conteneur .frites_et_brochettes {
+        height: 340px;
+        left: 430px;
+        object-fit: cover;
+        position: absolute;
+        top: 70px;
+        width: 511px;
+      }
+      
+      .conteneur .poulet_grille-1 {
+        height: 378px;
+        left: 940px;
+        object-fit: cover;
+        position: absolute;
+        top: 60px;
+        width: 567px;
+      }
+      
+      .conteneur .overlap-group1 {
+        align-items: flex-start;
+        background-color: #e4bb6cfa;
+        display: flex;
+        height: 77px;
+        left: 169px;
+        min-width: 212px;
+        padding: 23px;
+        position: absolute;
+        top: 450px;
+        border-radius: 210px;
+      }
+      
+      .conteneur .plus-dinfos {
+        letter-spacing: 0;
+        line-height: normal;
+        min-height: 29px;
+        min-width: 165px;
+        text-align: center;
+      }
+
+      .plus-dinfos {
+        font-size: 24px;
+        font-weight: bold;
+        color: black;
+        transition: transform 0.3s ease-in-out;
+      }
+
+      .plus-dinfos:hover {
+      transform: scale(1.1);
+      }
+
+      
+      .conteneur .rectangle-1 {
+        background-color: var(--grandis);
+        height: 162px;
+        left: 0;
+        position: absolute;
+        transform: rotate(0.03deg);
+        width: 100%;
+      }
+
+      :root { 
+        --black: #000000;
+        --grandis: #fcd28257;
+       
+        --font-size-l: 55px;
+        --font-size-m: 24px;
+       
+        --font-family-inter: "Inter", Helvetica;
+      }
+      .inter-extra-bold-black-24px {
+        color: var(--black);
+        font-family: var(--font-family-inter);
+        font-size: var(--font-size-m);
+        font-style: normal;
+        font-weight: 800;
+      }
+
+
+      .screen a {
+        display: contents;
+        text-decoration: none;
+      }
+
+      .container-center-horizontal {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        pointer-events: none;
+        width: 100%;
+      }
+
+      .container-center-horizontal > * {
+        flex-shrink: 0;
+        pointer-events: auto;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
